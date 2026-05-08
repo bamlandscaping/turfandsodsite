@@ -307,7 +307,7 @@ export default function Home() {
         <div className="container">
           <div className="footer-grid">
             <div className="footer-brand">
-              <img src="/image.png" alt="Joscar Turf" />
+              <img src="/Logos/image.png" alt="Joscar Turf" />
               <p>
                 Denver's trusted source for farm-fresh sod. Delivery and pickup available every day. Serving the greater Denver metro area
                 with quality work and honest pricing.

@@ -15,7 +15,7 @@ export default function Header() {
         <div className="container">
           <Link href="/" className="logo-wrap">
             {/* We use standard img to perfectly preserve the vanilla CSS rendering */}
-            <img src="/image.png" alt="Joscar Turf Logo" />
+            <img src="/Logos/image.png" alt="Joscar Turf Logo" />
           </Link>
           <div className="header-right">
             <a href="tel:7204358409" className="header-phone">
