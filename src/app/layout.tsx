@@ -52,10 +52,7 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, "max-image-preview": "large" },
   },
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/favicon.ico",
-  },
+
   openGraph: {
     title: "Joscar Turf | #1 Fresh Sod Denver — Kentucky Bluegrass Pickup & Delivery",
     description:
