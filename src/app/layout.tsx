@@ -24,7 +24,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "Joscar Turf | #1 Fresh Sod Denver | Kentucky Pickup & Delivery",
   description:
-    "Joscar Turf — Denver's #1 fresh sod supplier. Kentucky Bluegrass & Fescue cut daily. Pickup at 5250 Sheridan Blvd, Arvada CO or delivered across Denver metro. Call (720) 435-8409.",
+    "Joscar Turf — Denver's #1 fresh sod supplier. Kentucky Bluegrass & Fescue cut daily. Pickup at 5250 W 53rd Pl, Arvada CO or delivered across Denver metro. Call (720) 435-8409.",
   keywords: [
     "sod Denver",
     "fresh sod Denver",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Joscar Turf | #1 Fresh Sod Denver — Kentucky Bluegrass Pickup & Delivery",
     description:
-      "Fresh Kentucky Bluegrass & Fescue sod cut daily. Pickup at 5250 Sheridan Blvd Arvada or delivered across Denver metro. Call (720) 435-8409.",
+      "Fresh Kentucky Bluegrass & Fescue sod cut daily. Pickup at 5250 W 53rd Pl Arvada or delivered across Denver metro. Call (720) 435-8409.",
     url: "https://joscarturf.com",
     siteName: "Joscar Turf",
     locale: "en_US",
@@ -100,7 +100,7 @@ export default function RootLayout({
     "paymentAccepted": "Cash, Check",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "5250 Sheridan Blvd",
+      "streetAddress": "5250 W 53rd Pl",
       "addressLocality": "Arvada",
       "addressRegion": "CO",
       "postalCode": "80002",

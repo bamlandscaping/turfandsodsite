@@ -46,7 +46,7 @@ export default function Home() {
               maxWidth: '100%',
             }}>
               <h2 style={{color:'var(--g400)',marginBottom:'10px',fontSize:'1.1rem',fontFamily:'var(--font)',fontWeight:700,letterSpacing:'.2px'}}>
-                Woerner Farms Premium Blends
+                Premium Blends Only Sod
               </h2>
               <p style={{fontSize:'.97rem',lineHeight:'1.65',color:'#e8ece8',margin:'0'}}>
                 <strong style={{color:'var(--g300)'}}>4-Way Kentucky Bluegrass</strong> — shade, sun, traffic &amp; low water<br/>
@@ -66,6 +66,13 @@ export default function Home() {
                   <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
                 </svg>
                 Text (720) 435-8409
+              </a>
+              <a href="https://maps.google.com/?q=5250+W+53rd+Pl,+Arvada,+CO+80002" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" id="hero-directions-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                  <circle cx="12" cy="9" r="2.5"/>
+                </svg>
+                Directions
               </a>
             </div>
           </div>
@@ -108,7 +115,7 @@ export default function Home() {
               </div>
               <h3>Sod Pickup — Arvada, CO</h3>
               <p>
-                Pick up directly at <strong>5250 Sheridan Blvd, Arvada, CO 80002</strong>. Same-day availability — cut fresh every single day for guaranteed quality.
+                Pick up directly at <strong>5250 W 53rd Pl, Arvada, CO 80002</strong>. Same-day availability — cut fresh every single day for guaranteed quality.
               </p>
             </div>
             <div className="wwd-card">
@@ -184,6 +191,13 @@ export default function Home() {
               </svg>
               Text (720) 435-8409
             </a>
+            <a href="https://maps.google.com/?q=5250+W+53rd+Pl,+Arvada,+CO+80002" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" id="cta-directions-btn" style={{ borderColor: "rgba(255,255,255,.4)" }}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                <circle cx="12" cy="9" r="2.5"/>
+              </svg>
+              Directions
+            </a>
           </div>
         </div>
       </section>
@@ -197,7 +211,7 @@ export default function Home() {
           </div>
           <h2 className="section-title">Sod Delivery &amp; Pickup — Greater Denver Area</h2>
           <p className="section-sub">
-            We deliver fresh sod across the Denver metro — up to a 1-hour drive. Pickup available at 5250 Sheridan Blvd, Arvada, CO 80002.
+            We deliver fresh sod across the Denver metro — up to a 1-hour drive. Pickup available at 5250 W 53rd Pl, Arvada, CO 80002.
           </p>
           <MapWrapper />
           <div className="area-cities">
@@ -258,6 +272,13 @@ export default function Home() {
                   </svg>
                   Text (720) 435-8409
                 </a>
+                <a href="https://maps.google.com/?q=5250+W+53rd+Pl,+Arvada,+CO+80002" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" id="booking-directions-btn">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                    <circle cx="12" cy="9" r="2.5"/>
+                  </svg>
+                  Directions
+                </a>
               </div>
             </div>
           </div>
@@ -275,16 +296,20 @@ export default function Home() {
               </p>
               {/* Address Block */}
               <div style={{ marginTop: '4px', padding: '14px 16px', background: 'rgba(46,216,67,.08)', borderRadius: '10px', border: '1px solid rgba(46,216,67,.2)' }}>
-                <strong style={{ display: 'block', color: 'var(--g400)', marginBottom: '6px', fontSize: '.8rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
-                  📍 Pickup Location
+                <strong style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'var(--g400)', marginBottom: '6px', fontSize: '.8rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                    <circle cx="12" cy="9" r="2.5"/>
+                  </svg>
+                  Pickup Location
                 </strong>
                 <a
-                  href="https://maps.google.com/?q=5250+Sheridan+Blvd,+Arvada,+CO+80002"
+                  href="https://maps.google.com/?q=5250+W+53rd+Pl,+Arvada,+CO+80002"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: 'var(--white)', fontSize: '.95rem', lineHeight: 1.5 }}
                 >
-                  5250 Sheridan Blvd<br />Arvada, CO 80002
+                  5250 W 53rd Pl<br />Arvada, CO 80002
                 </a>
               </div>
             </div>
@@ -298,41 +323,31 @@ export default function Home() {
             </div>
             <div>
               <h4>Contact Us</h4>
-              <div className="footer-contact-item">
-                <svg viewBox="0 0 24 24">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 3.07 4.18 2 2 0 0 1 5.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-                </svg>
-                <a href="tel:7204358409">(720) 435-8409</a>
-              </div>
-              <div className="footer-contact-item">
-                <svg viewBox="0 0 24 24">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 3.07 4.18 2 2 0 0 1 5.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-                </svg>
-                <a href="tel:7202756691">(720) 275-6691</a>
-              </div>
-              <div className="footer-contact-item">
-                <svg viewBox="0 0 24 24">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                  <circle cx="12" cy="10" r="3" />
-                </svg>
-                <a
-                  href="https://maps.google.com/?q=5250+Sheridan+Blvd,+Arvada,+CO+80002"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  5250 Sheridan Blvd, Arvada CO 80002
+              <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+                <a href="tel:7204358409" className="btn btn-primary" style={{ width: "100%", justifyContent: "center" }}>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" width="18" height="18">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 3.07 4.18 2 2 0 0 1 5.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                  Call Now
                 </a>
-              </div>
-              <div className="footer-contact-item">
-                <svg viewBox="0 0 24 24">
-                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-                </svg>
-                <span>Call or Text Anytime</span>
+                <a href="sms:7204358409" className="btn btn-secondary" style={{ width: "100%", justifyContent: "center", borderColor: "rgba(255,255,255,.4)" }}>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                  </svg>
+                  Text Us
+                </a>
+                <a href="https://maps.google.com/?q=5250+W+53rd+Pl,+Arvada,+CO+80002" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ width: "100%", justifyContent: "center", borderColor: "rgba(255,255,255,.4)" }}>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                    <circle cx="12" cy="9" r="2.5"/>
+                  </svg>
+                  Directions
+                </a>
               </div>
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2026 Joscar Turf. All rights reserved. Fresh Sod Pickup &amp; Delivery — Denver, CO. | 5250 Sheridan Blvd, Arvada, CO 80002</p>
+            <p>&copy; 2026 Joscar Turf. All rights reserved. Fresh Sod Pickup &amp; Delivery — Denver, CO. | 5250 W 53rd Pl, Arvada, CO 80002</p>
           </div>
         </div>
       </footer>

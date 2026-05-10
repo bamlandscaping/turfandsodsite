@@ -28,12 +28,9 @@ export default function ServiceMap() {
 
     const circle = L.circle([lat, lng], {
       radius: 60 * 1609.34,
-      color: "#22a134",
-      weight: 3,
-      opacity: 0.8,
+      stroke: false,
       fillColor: "#22a134",
       fillOpacity: 0.1,
-      dashArray: "8,6",
     }).addTo(map);
 
     map.fitBounds(circle.getBounds().pad(0.1));

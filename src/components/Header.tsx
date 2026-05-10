@@ -40,8 +40,8 @@ export default function Header() {
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
                   <circle cx="12" cy="9" r="2.5"/>
                 </svg>
-                <a href="https://maps.google.com/?q=5250+Sheridan+Blvd,+Arvada,+CO+80002" target="_blank" rel="noopener noreferrer">
-                  Pickup: 5250 Sheridan Blvd, Arvada CO
+                <a href="https://maps.google.com/?q=5250+W+53rd+Pl,+Arvada,+CO+80002" target="_blank" rel="noopener noreferrer">
+                  Pickup: 5250 W 53rd Pl, Arvada CO
                 </a>
                 <span className="pickup-divider">·</span>
                 {/* Truck SVG */}
@@ -75,7 +75,7 @@ export default function Header() {
         <div className="mobile-address">
           <div className="mobile-address-label">Fresh Sod Pickup &amp; Delivery</div>
           <a
-            href="https://maps.google.com/?q=5250+Sheridan+Blvd,+Arvada,+CO+80002"
+            href="https://maps.google.com/?q=5250+W+53rd+Pl,+Arvada,+CO+80002"
             target="_blank"
             rel="noopener noreferrer"
             onClick={closeMobile}
@@ -86,7 +86,7 @@ export default function Header() {
               <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
               <circle cx="12" cy="9" r="2.5"/>
             </svg>
-            5250 Sheridan Blvd, Arvada, CO 80002
+            5250 W 53rd Pl, Arvada, CO 80002
           </a>
         </div>
 
@@ -102,6 +102,13 @@ export default function Header() {
               <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
             </svg>
             Text (720) 435-8409
+          </a>
+          <a href="https://maps.google.com/?q=5250+W+53rd+Pl,+Arvada,+CO+80002" target="_blank" rel="noopener noreferrer" onClick={closeMobile} aria-label="Directions to Joscar Turf">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+              <circle cx="12" cy="9" r="2.5"/>
+            </svg>
+            Directions
           </a>
         </div>
 
